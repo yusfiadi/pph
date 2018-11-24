@@ -184,6 +184,7 @@ img::-moz-selection {
 }
 
 header.masthead {
+    height: 100vh;
     text-align: center;
     color: #fff;
     background-image: url(../img/header-bg.jpg);
@@ -194,7 +195,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px
 }
 
@@ -216,7 +217,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width:768px) {
     header.masthead .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 200px
     }
 
@@ -235,6 +236,27 @@ header.masthead .intro-text .intro-heading {
         margin-bottom: 50px;
         font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
     }
+}
+
+section#convert {
+    background-color: #0D647F;
+}
+
+section#total {
+    background-color: #51A8D3;
+}
+
+section#total .count-total {
+    font-size: 100px;
+}
+
+section#learn-more {
+    background-color: #05897E;
+}
+
+section#learn-more .logo-pph {
+    width: auto;
+    height: 100px;
 }
 
 .service-heading {
