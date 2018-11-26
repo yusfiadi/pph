@@ -111,7 +111,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-    background-color: #212529
+    background-color: rgba(33, 37, 41, 0.4);
 }
 
 #mainNav .navbar-toggler {
@@ -174,7 +174,7 @@ img::-moz-selection {
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #212529
+        background-color: rgba(33, 37, 41, 0.4);
     }
 
     #mainNav.navbar-shrink .navbar-brand {
@@ -405,7 +405,7 @@ section#learn-more .logo-pph {
     margin-left: 35px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #212529
+    background-color: rgb(33, 37, 41);
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -414,7 +414,7 @@ section#learn-more .logo-pph {
     height: 75px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    background-color: #212529
+    background-color: rgb(33, 37, 41);
 }
 
 .timeline {
