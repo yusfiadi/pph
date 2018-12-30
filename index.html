@@ -27,6 +27,7 @@
 
 <body id="page-top">
 
+    <div id="loading-mask"></div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
@@ -40,16 +41,22 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#services">Our Services</a>
+                        <a class="nav-link js-scroll-trigger" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Want to Support?</a>
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Want to convert?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">What We Do</a>
+                        <a class="nav-link js-scroll-trigger" href="#about">P2S</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#team">Our work family</a>
+                        <a class="nav-link js-scroll-trigger" href="#team">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#team">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-info">Login</a>
                     </li>
                 </ul>
             </div>
@@ -58,6 +65,12 @@
 
     <!-- Header -->
     <header class="masthead">
+
+        <!--
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="bg-video.mp4" type="video/mp4">
+        </video>
+-->
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Let's Power The World With Plastic Waste!</div>
@@ -447,6 +460,11 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
+    <script>
+        window.onload = function() {
+            document.getElementById('loading-mask').style.display = 'none';
+        }
+    </script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 

@@ -168,7 +168,7 @@ img::-moz-selection {
     }
 
     #mainNav .navbar-nav .nav-item .nav-link {
-        padding: 1.1em 1em !important
+        padding: 0.5em 1em !important
     }
 
     #mainNav.navbar-shrink {
@@ -193,6 +193,24 @@ header.masthead {
     background-position: center center;
     background-size: cover
 }
+
+/*
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    height: auto;
+    z-index: -10;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+*/
 
 header.masthead .intro-text {
     padding-top: 100px;
@@ -244,6 +262,10 @@ section#convert {
 
 section#total {
     background-color: #51A8D3;
+    background-image: url(../img/peta.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 section#total .count-total {
@@ -740,4 +762,14 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: #fed136
+}
+
+#loading-mask {
+    background-color: white;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
 }
